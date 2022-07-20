@@ -286,6 +286,9 @@ def delete(request):
 def cancelsignup(request):
 
     return render(request, "sign.html")
+def postsign2(request):
+
+    return render(request, "postsign.html")  
 
     
     
