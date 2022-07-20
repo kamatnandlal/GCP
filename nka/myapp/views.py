@@ -148,7 +148,7 @@ def postcreate(request):
 
     }
 
-    database.child("users").child(a).child(csp+"  "+ cname).set(data)
+    database.child("users").child(a).child(csp+" "+ cname).set(data)
 
 
     subject = " Update from certihub "
